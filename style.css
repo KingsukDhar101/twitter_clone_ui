@@ -133,7 +133,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
 }
-.middle-container .post-container .post-details .whats-happening input{
+.middle-container .post-container .post-details .whats-happening input {
   /* margin-bottom: 20px; */
   height: 3em;
   font-size: 1.2em;
@@ -141,20 +141,20 @@ html {
   width: 100%;
   border-bottom: 1px solid #ccc;
 }
-.middle-container .post-container .post-details .whats-happening input:focus{
+.middle-container .post-container .post-details .whats-happening input:focus {
   outline: none;
 }
 
-.middle-container .post-container .post-details .icons{
+.middle-container .post-container .post-details .icons {
   padding-top: 20px;
   padding-bottom: 5px;
   display: flex;
   align-items: center;
 }
-.middle-container .post-container .post-details .icons i{
+.middle-container .post-container .post-details .icons i {
   margin-right: 8px;
 }
-.middle-container .post-container .post-details .icons button{
+.middle-container .post-container .post-details .icons button {
   margin-left: auto;
   margin-right: 10px;
   font-size: 1em;
@@ -166,7 +166,7 @@ html {
   border: none;
   cursor: pointer;
 }
-.middle-container .post-container .post-details .icons button:active{
+.middle-container .post-container .post-details .icons button:active {
   background-color: rgb(15, 116, 184);
 }
 
@@ -181,26 +181,29 @@ html {
   border-bottom: 1px solid rgba(204, 204, 204, 0.486);
   padding: 10px 0;
 }
-.middle-container .tweet-container .tweets .topline{
+.middle-container .tweet-container .tweets .topline {
   font-size: 0.6em;
   font-weight: 700;
   display: flex;
   margin-left: 50px;
   margin-bottom: 5px;
 }
-.middle-container .tweet-container .tweets .topline div{
+.middle-container .tweet-container .tweets .topline i {
+  font-size: 1.6em;
+}
+.middle-container .tweet-container .tweets .topline div {
   margin: 2px 5px;
   display: flex;
   align-items: center;
   color: gray;
 }
-.middle-container .tweet-container .tweets .t-container{
+.middle-container .tweet-container .tweets .t-container {
   display: flex;
 }
-.middle-container .tweet-container .tweets .t-container .dp{
+.middle-container .tweet-container .tweets .t-container .dp {
   padding: 0 5px;
 }
-.middle-container .tweet-container .tweets .t-container .dp .dp-1{
+.middle-container .tweet-container .tweets .t-container .dp .dp-1 {
   border: 1px solid black;
   height: 2.1em;
   width: 2.1em;
@@ -209,55 +212,54 @@ html {
   justify-content: center;
   align-items: center;
 }
-.middle-container .tweet-container .tweets .t-container .lines{ 
-  margin-left: 8px; 
+.middle-container .tweet-container .tweets .t-container .lines {
+  margin-left: 8px;
 }
-.middle-container .tweet-container .tweets .t-container .lines .line-1{
+.middle-container .tweet-container .tweets .t-container .lines .line-1 {
   display: flex;
   align-items: baseline;
   font-size: 0.9em;
   color: gray;
   margin-bottom: 9px;
 }
-.lines .line-1 div{
+.lines .line-1 div {
   margin-right: 8px;
 }
-.lines .line-2 p{
+.lines .line-2 p {
   font-weight: 500;
   font-size: 0.95em;
   margin: 4px 0;
 }
-.lines .line-3{
+.lines .line-3 {
   width: 100%;
   height: auto;
   margin-top: 12px;
 }
-.lines .line-3 img{
+.lines .line-3 img {
   height: auto;
   width: 95%;
   object-fit: cover;
   border-radius: 12px;
 }
-.lines .line-4{
+.lines .line-4 {
   display: flex;
   justify-content: space-evenly;
 }
-.lines .line-4 .icon{
+.lines .line-4 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 12px;
   color: gray;
   font-size: 0.8em;
-
 }
-.lines .line-4 .icon i{
+.lines .line-4 .icon i {
   margin-right: 2px;
   font-size: 1em;
 }
-.hashtag{
+.hashtag {
   text-decoration: none;
-  color:rgb(29, 155, 240);
+  color: rgb(29, 155, 240);
 }
 
 .middle-container .tweet-container .tweets:hover {
@@ -300,7 +302,7 @@ html {
   padding: 2px 5px;
   /* border: 1px solid red; */
 }
-.right-container .search input:focus{
+.right-container .search input:focus {
   outline: none;
 }
 
@@ -383,32 +385,32 @@ html {
   color: gray;
 }
 
-@media only screen and (max-width: 1124px){
-  .right-container{
+@media only screen and (max-width: 1124px) {
+  .right-container {
     display: none;
   }
-  .middle-container{
+  .middle-container {
     width: 100% !important;
   }
 }
 
-@media only screen and (max-width: 500px){
-  .container > .left-container{
+@media only screen and (max-width: 500px) {
+  .container > .left-container {
     width: 100px;
     margin: 0 auto;
     border: 1px s/olid black;
     padding: 0 10px;
   }
-  .container > .left-container .logo{
+  .container > .left-container .logo {
     margin-left: 5px;
   }
-  .container > .left-container div{
+  .container > .left-container div {
     margin-left: 15px;
   }
-  .container > .left-container div a{
+  .container > .left-container div a {
     display: none;
   }
-  .container > .left-container button{
+  .container > .left-container button {
     width: 50%;
     width: 5em;
     padding: 6px;
@@ -417,19 +419,18 @@ html {
   }
 }
 
-@media only screen and (max-width: 355px){
-  .container > .middle-container .top-bar{
+@media only screen and (max-width: 355px) {
+  .container > .middle-container .top-bar {
     font-size: 0.9em;
   }
-  .container > .middle-container .whats-happening{
+  .container > .middle-container .whats-happening {
     font-size: 0.8em;
   }
-  .container > .middle-container .icons i{
+  .container > .middle-container .icons i {
     font-size: 1em;
   }
-  .middle-container .post-container .post-details .icons button{
+  .middle-container .post-container .post-details .icons button {
     font-size: 0.65em;
     padding: 7px 8px;
   }
-
 }
